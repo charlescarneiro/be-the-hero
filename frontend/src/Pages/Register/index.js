@@ -76,6 +76,8 @@ export default function Register() {
                     onChange={e => setWhatsapp(e.target.value)}
                      />
 
+                <div className="input-group">
+
                     <input 
                     placeholder="Cidade"
                     value={city}
@@ -90,7 +92,7 @@ export default function Register() {
                     
                     />
                    
-
+                   </div>
                     <button className="button" type="submit">Cadastrar</button>
                 </form>
             </div>
