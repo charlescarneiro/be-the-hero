@@ -40,6 +40,7 @@ export default function Logon() {
                     placeholder="Sua ID"
                     value={id}
                     onChange={e => setId(e.target.value)} 
+                    required
                     />
                     <button className="button" type="submit">Entrar</button>
 

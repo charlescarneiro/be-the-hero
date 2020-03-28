@@ -59,16 +59,19 @@ export default function NewIncident() {
                 placeholder="Título do caso" 
                 value={title}
                 onChange={e => setTitle(e.target.value)}
+                required
                 />
                 <textarea 
                 placeholder="Descrição" 
                 value={description}
                 onChange={e => setDescription(e.target.value)}
+                required
                 />
                 <input 
                 placeholder="Valor em reais" 
                 value={values}
                 onChange={e => setValues(e.target.value)}
+                required
                 />
 
             
